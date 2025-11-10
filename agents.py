@@ -10,7 +10,7 @@ from tools.calculator_tools import CalculatorTools # Mantendo o import caso quei
 load_dotenv()
 
 search_tool = SerperDevTool()
-#web_rag_tool = WebsiteSearchTool()
+web_rag_tool = WebsiteSearchTool()
 
 class TravelAgents:
     def __init__(self):
